@@ -1,0 +1,12 @@
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - name: PrimeroJob
+        - uses: actions/checkout@v2
+   
+        - name: Executando o STEP1
+        - run: |
+            echo Esse processo carrega uma mensagem
+            echo basica para entender o workflow
