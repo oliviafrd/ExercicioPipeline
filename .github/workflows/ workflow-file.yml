@@ -4,9 +4,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: PrimeroJob
-        - uses: actions/checkout@v4
+          uses: actions/checkout@v4
    
         - name: Executando o STEP1
-        - run: |
+          run: |
             echo Esse processo carrega uma mensagem
             echo basica para entender o workflow
